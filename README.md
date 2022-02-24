@@ -7,3 +7,6 @@ In the project, I used a box instead of books since most of my books can't be re
 
 The only code I write in this project is the C# Source file. There are three GameObject and two function in there. The GameObject are controlled by the interaction function. When the virtual button is pressed. The function will set the bookname and virtual button invisible. The book review will show at the same time. When the button is released, the review will disappear. The bookname and button will show again.
 
+The limitation of this project is the resolution of my camera. The video data is fuzzy which caused vuforia engine can't detect the image plane well. If you have a webcam with higher resolution, it will show a better effect.
+
+You should be able to download whole project and import it to your Unity3D, remember to install and import vuforia and fill the license for the AR camera.
